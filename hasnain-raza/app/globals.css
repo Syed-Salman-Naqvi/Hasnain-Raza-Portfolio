@@ -69,3 +69,8 @@ button{font:inherit}
 @keyframes status-pulse{0%,100%{box-shadow:0 0 0 4px rgba(145,197,164,.1)}50%{box-shadow:0 0 0 7px rgba(145,197,164,.04)}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 @media(max-width:640px){.hero-actions{gap:8px}.hero-actions .button{flex:1 1 100%;max-width:100%}.portrait-caption span{font-size:22px}.portrait-caption{left:17px;bottom:20px}}
+
+
+/* Keep the navigation visible while scrolling the entire portfolio. */
+.portfolio{overflow:clip}
+.site-header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 91%,transparent);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 1px 0 var(--line)}
