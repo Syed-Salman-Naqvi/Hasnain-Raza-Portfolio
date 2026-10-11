@@ -47,7 +47,6 @@ export default function Home() {
             <div className="monogram-art portrait-art"><img className="hero-portrait" src="/WhatsApp%20Image%202026-10-11%20at%202.11.43%20PM.jpeg" alt="Hasnain Raza portrait" /><div className="portrait-shade" /><div className="portrait-caption"><span>HASNAIN RAZA</span><b>INTERNATIONAL BUSINESS · CREATIVE</b></div><span className="monogram-index">KHI<br />24°51&apos;N</span><span className="monogram-side">INTERNATIONAL PERSPECTIVE</span></div>
             <div className="frame-bottom"><span>BUSINESS MINDED.</span><span>GLOBALLY CURIOUS.</span></div>
           </div>
-          <div className="floating-note"><span className="note-icon">↗</span><span>BRIDGING IDEAS<br /><b>ACROSS BORDERS</b></span></div>
           <span className="hero-index">PORTFOLIO <b>— 2026</b></span>
         </div>
         <a className="scroll-cue" href="#about"><span /> SCROLL TO DISCOVER</a>
