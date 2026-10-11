@@ -38,13 +38,13 @@ export default function Home() {
           <h1>HASNAIN<br /><span>RAZA</span><i>.</i></h1>
           <p className="hero-role">International Relations Student <span>·</span> International Business <span>·</span> Graphic Design</p>
           <p className="hero-intro">Connecting global business ambition with clear communication, practical technology, and thoughtful visual design.</p>
-          <div className="hero-actions"><a className="button button-primary" href="#contact">Let&apos;s work together <span>↗</span></a><a className="button button-secondary" href="#work">Explore my work <span>↓</span></a></div>
+          <div className="hero-actions"><a className="button button-primary" href="#contact">Let&apos;s work together <span>↗</span></a><a className="button button-secondary" href="/Hasnain-Raza-Resume.pdf" download="Hasnain-Raza-Resume.pdf">Download Resume <span>↓</span></a><a className="button button-ghost" href="#work">Explore my work <span>↘</span></a></div>
           <div className="hero-meta"><span><b>01</b> BUSINESS & TRADE</span><span><b>02</b> STRATEGY & RESEARCH</span><span><b>03</b> CREATIVE EXECUTION</span></div>
         </div>
         <div className="hero-visual">
           <div className="visual-frame">
             <div className="frame-top"><span>PERSONAL PROFILE</span><span>HR / 2026</span></div>
-            <div className="monogram-art" aria-label="Hasnain Raza monogram artwork"><div className="orbit orbit-a" /><div className="orbit orbit-b" /><span className="monogram-h">H</span><span className="monogram-r">R</span><span className="monogram-index">KHI<br />24°51&apos;N</span><span className="monogram-side">INTERNATIONAL PERSPECTIVE</span></div>
+            <div className="monogram-art portrait-art"><img className="hero-portrait" src="/WhatsApp%20Image%202026-10-11%20at%202.11.43%20PM.jpeg" alt="Hasnain Raza portrait" /><div className="portrait-shade" /><div className="portrait-caption"><span>HASNAIN RAZA</span><b>INTERNATIONAL BUSINESS · CREATIVE</b></div><span className="monogram-index">KHI<br />24°51&apos;N</span><span className="monogram-side">INTERNATIONAL PERSPECTIVE</span></div>
             <div className="frame-bottom"><span>BUSINESS MINDED.</span><span>GLOBALLY CURIOUS.</span></div>
           </div>
           <div className="floating-note"><span className="note-icon">↗</span><span>BRIDGING IDEAS<br /><b>ACROSS BORDERS</b></span></div>
